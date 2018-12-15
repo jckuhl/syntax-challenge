@@ -15,3 +15,9 @@ But then I also had a thought about using RegEx (which I hate) and rewrote my ja
 Both scripts lead to the same output of 87:00:13 with the given data set.
 
 I might however have to use Beautiful Soup or something to scrape the actual webpage since I can't seem to get more than 99 episodes from the RSS.
+
+## Update
+
+Beautiful Soup of course wouldn't work for a page built and routed with React.  However I think I have my solution with Selenium Webdriver.  `feedwd.py` uses Webdriver to collect the timestamps for every episode and adds them together.
+
+And I got `88:52:51`
