@@ -1,0 +1,14 @@
+{
+  "name": "syntax",
+  "version": "1.0.0",
+  "description": "code challenge by wes bos",
+  "main": "feed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Kuhl",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
