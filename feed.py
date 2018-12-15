@@ -30,11 +30,6 @@ for duration in durations:
         totals['minutes'] += timestamp[1]
         totals['seconds'] += timestamp[2]
 
-    # let seconds = totals.seconds % 60;
-    # let minutes = Math.floor(totals.seconds / 60) + totals.minutes;
-    # let hours = Math.floor(minutes / 60) + totals.hours;
-    # minutes = minutes % 60;
-
 seconds = totals['seconds'] % 60
 minutes = math.floor(totals['seconds'] / 60) + totals['minutes']
 hours = math.floor(minutes / 60) + totals['hours']
